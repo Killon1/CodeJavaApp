@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container text-center" style="padding-top: 30px">
+        <div>
+            <h1 class="font-weight-bold">Project SOA Security</h1>
+        </div>
+
+            <div class="btn-group-vertical btn-group-lg" role="button" style="padding-top: 50px">
+                <button type="button" class="btn btn-secondary"><a th:href="@{/login}" style="color: white">Login</a></button>
+                <button type="button" class="btn btn-secondary"><a th:href="@{/register}" style="color: white">Register</a></button>
+                <button type="button" class="btn btn-secondary"><a th:href="@{/oauth2/authorization/google}" style="color: white">Login with Google</a></button>
+                <button type="button" class="btn btn-secondary"><a th:href="@{oauth2/authorization/github}" style="color: white">Login with GitHub</a></button>
+            </div>
+    </div>
+</body>
+</html>

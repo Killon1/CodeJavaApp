@@ -1,0 +1,25 @@
+X       mettere cifratura a runtime
+X       salvare info nel db da oauth google
+X       mettere authprovider per registrazioni in loco
+implementare oauth github
+inserimento nel db con oauthprovider github
+se non funziona prova a fare la stessa cosa con twitter
+
+
+
+twitter api key
+4p96hn27WNVoA6jYN8IF5nOx6
+
+twitter API Key Secret
+4dWt539aCKeZlsFaP2WSyEpaoDbCJuQWpuoGrPUzwKcKsibeBQ
+
+twitter Bearer Token
+AAAAAAAAAAAAAAAAAAAAAGXGcwEAAAAApSH%2BDSqjFayymqTUGKuMzP02iNU%3DHvLx2HQTetg4SvaGOaEZReAUUKqgHsyQbRXfcm0VVHK486hibD
+
+
+
+github client id
+Iv1.561ec71aa0dfa13e
+
+github client secret
+2a53b76062bf03aac45a43b9ec8a6e8ae481e938
